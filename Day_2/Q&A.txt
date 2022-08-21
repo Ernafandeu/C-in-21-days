@@ -1,0 +1,18 @@
+Question 1 : What effect do comments have on a program?
+Answer:
+ Comments are for the programmer. When the compiler converts the source code to object code,
+it throws the comments and the white space away. This means that they have no effect on the
+executable program. Comments do make your source file bigger, but this is usually of little
+concern. To summarize, you should use comments and white space to make your source code as
+easy to understand and main-tain as possible.
+Question 2 : What is the difference between a statement and a block?
+Answer:
+ A block is a group of statements enclosed in braces ({}). A block can be used in most places that
+a statement can be used.
+Question 3 : How can I find out what library functions are available?
+Answer:
+ Many compilers come with a manual dedicated specifically to documenting the library functions.
+They are usually in alphabetical order. Another way to find out what library functions are available
+is to buy a book that lists them. Appendix E, "Common C Functions," lists many of the available
+functions. After you begin to understand more of C, it would be a good idea to read these
+appendixes so that you don't rewrite a library function. (There's no use reinventing the wheel!)

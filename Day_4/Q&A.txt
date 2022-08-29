@@ -1,0 +1,28 @@
+Question:
+ What effect do spaces and blank lines have on how a program runs?
+Answer:
+ White space (lines, spaces, tabs) makes the code listing more readable. When the program is compiled,
+white space is stripped and thus has no effect on the executable program. For this reason, you should use
+white space to make your program easier to read.
+Question:
+ Is it better to code a compound if statement or to nest multiple if statements?
+Answer:
+ You should make your code easy to understand. If you nest if statements, they are evaluated as shown
+in this chapter. If you use a single compound statement, the expressions are evaluated only until the entire
+statement evaluates to false.
+Question:
+ What is the difference between unary and binary operators?
+Answer:
+ As the names imply, unary operators work with one variable, and binary operators work with two.
+Question:
+ Is the subtraction operator (-) binary or unary?
+Answer:
+ It's both! The compiler is smart enough to know which one you're using. It knows which form to use
+based on the number of variables in the expression that is used. In the following statement, it is unary:
+x = -y;
+versus the following binary use:
+x = a - b;
+Question:
+ Are negative numbers considered true or false?
+Answer:
+ Remember that 0 is false, and any other value is true. This includes negative numbers.

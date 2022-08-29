@@ -1,0 +1,20 @@
+1. What is the following C statement called, and what is its meaning?
+x = 5 + 8; a statements
+2. What is an expression? an expression is anything that evaluates to a numeric value. C expressions come in all levels of
+complexity.
+3. In an expression that contains multiple operators, what determines the order in which operations are
+performed?
+4. If the variable x has the value 10, what are the values of x and a after each of the following statements
+is executed separately?
+a = x++;
+a = ++x; a = x + 1 = 11
+5. To what value does the expression 10 % 3 evaluate? the answer is 1
+6. To what value does the expression 5 + 3 * 8 / 2 + 2 evaluate?  the answer is 19
+7. Rewrite the expression in question 6, adding parentheses so that it evaluates to 16. the answer is ((5+3) * 8 ) / 2+2
+8. If an expression evaluates to false, what value does the expression have? the answer is 0
+9. In the following list, which has higher precedence?
+a. == or <
+b. * or +
+c. != or ==
+d. >= or >
+10. What are the compound assignment operators, and how are they useful?

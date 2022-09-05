@@ -21,8 +21,7 @@ int main()
 somme = c + d + e + f + g ; 
 i = average(somme);
 /*printf("\nla valeur de %f", &i);*/
-printf("\nla valeur de %d",&somme);
-/*printf ("La moyenne de vos notes est egale a : %f", &i);*/
+printf ("La moyenne de vos notes est egale a : %f", &i);
 return 0 ;
 }
 
